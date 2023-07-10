@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Bitcheese";
+    src: url(../font/Bitcheese.otf);
+}
+
+/*Carousel*/
+
+h1{
+    height: 600px;
+    width: 100px;
+    transform: rotate(-45deg);
+    color: rgb(207, 36, 36);
+    font-family: "Bitcheese";
+
+}
+
+h2.slider{
+    height: 600px;
+    width: 100px;
+    transform: rotate(-45deg);
+    color: rgb(207, 36, 36);
+    font-family: "Bitcheese";
+    text-decoration: none;
+}
+
+span{
+    color: rgb(104, 194, 230);
+}
+
+/*Fin carousel*/
+
+/*Barra de navegación*/
+
+nav.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    }
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+.navbar ul li a:hover{
+    color: rgb(207, 36, 36);
+
+}
+
+/*Fin barra de navegación*/
+
+/*Fotos biografía*/
+
+div.cuerpo{
+    width: 80%;
+    text-align: center;
+    margin: 0 10% 0% 10%;  
+}
+
+/*Fin fotos biograía*/
+
+h2{
+    margin: 20px;
+    text-align: center;
+    font-family: "Bitcheese";
+    color: rgb(207, 36, 36);
+    font-size: xx-large;
+    text-decoration-line: underline;
+    transform: rotate(-5deg);
+}
+
+body{
+    background-color: rgb(185, 185, 201);
+}
+
+/*Cuerpo Index*/
+.p1{
+    margin-top: 50px;
+    font-family: "Bitcheese";
+    background-color: rgb(235, 37, 37);
+}
+
+.p2{
+    margin-top: 75px;
+    font-family: "Bitcheese";
+    background-color: rgb(104, 194, 230);
+}
+
+.p3{
+    font-family: "Bitcheese";
+    background-color: rgb(182, 182, 119);
+}
+
+.p4{ 
+    margin-top: 75px;
+    font-family: "Bitcheese";
+    background-color: rgb(65, 51, 192);
+
+}
+
+/*Fin cuerpo index*/
+
+/*Biografía*/
+
+.cuerpo p{
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.fotoskurt img{
+    height: 300px;
+    margin: 50px;
+}
+
+
+/*Fin de biografía*/
+
+/*Tapas inferior*/
+.tapas img{
+    height: 200px;
+    margin: 1px;
+     
+}
+
+/*Fin tapas inferior*/
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    background-color: rgb(205, 205, 223);
+    display: flex;
+    justify-content: center;
+}
+
+.secpie{
+    width: 80%;
+    justify-content: left;
+    display: flex;
+    position: relative;
+}
+
+.pie ul{
+    align-items: first baseline;
+    width: 40%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.pie ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.pie ul li{
+    padding: 3px;
+    list-style-type: none;
+}
+
+div.div-pie{
+    width: 100%;
+    font-size: large;
+    text-align: right;
+   
+}
+
+.img-instagram{
+    width: 30px;
+    margin-top: 40px;
+    
+}
+
+.seccopy{
+    font-size: medium;
+    padding-top: 60px;
+
+}
+
+/*Fin footer*/
+
+/*Formulario de contacto*/
+
+div.contacto{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+div.contacto textarea{
+    border: rgb(104, 194, 230) solid;
+}
+
+.datos{
+    color: rgb(121, 121, 121);
+    width: 300px;
+}
+
+.mensaje{
+    color: rgb(121, 121, 121);
+    width: 300px;
+    height: 300px;
+}
+
+/*Fin de formulario de contacto*/
+
+/*Novelas*/
+
+.img-novela{
+    height: 400px;
+    margin: 10px;
+}
+
+.argumento{
+    text-align: justify;
+    margin-top: 10px;
+    
+}
+
+/*Fin de novelas*/
+
+/*Otros libros*/
+.tapasotros div{
+    height: 600px;
+    margin: 100px;
+}
+   
+section.tapasotros{
+display: flex;
+}
+
+.tapasotros img{
+    height: 500px;
+}
+
+/*Fin de otros libros*/

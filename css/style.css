@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: "Bitcheese";
-    src: url(../font/Bitcheese.otf);
+    font-family: "bitcheese";
+    src: url(../font/bitcheese.otf);
 }
 
 /*Carousel*/
@@ -16,7 +16,7 @@ h1{
     width: 100px;
     transform: rotate(-45deg);
     color: rgb(207, 36, 36);
-    font-family: "Bitcheese";
+    font-family: "bitcheese";
 
 }
 
@@ -25,7 +25,7 @@ h2.slider{
     width: 100px;
     transform: rotate(-45deg);
     color: rgb(207, 36, 36);
-    font-family: "Bitcheese";
+    font-family: "bitcheese";
     text-decoration: none;
 }
 
@@ -228,6 +228,7 @@ div.contacto textarea{
 
 /*Novelas*/
 
+
 .img-novela{
     height: 400px;
     margin: 10px;
@@ -256,3 +257,32 @@ display: flex;
 }
 
 /*Fin de otros libros*/
+
+/*Botones*/
+
+.boton{
+    text-align: center;
+    margin: 10px;
+    }
+
+    /*fin botones*/
+
+   @media screen and (max-width: 600px){
+    .p1{
+        background-color: rgb(104, 194, 230);
+    }
+    
+    .p2{
+        background-color: rgb(235, 37, 37);
+    }
+    
+    .p3{
+        background-color: rgb(65, 51, 192);
+    }
+    
+    .p4{ 
+        background-color: rgb(182, 182, 119);
+    
+    }
+    
+   }

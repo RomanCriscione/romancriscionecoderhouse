@@ -9,50 +9,20 @@
   font-family: "bitcheese";
   src: url(../font/bitcheese.otf);
 }
-h1 {
-  font-size: 4rem;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
 /*Carousel*/
 .titulo-4 {
+  height: 600px;
+  width: 100px;
   transform: rotate(-45deg);
   color: #ff0202;
   font-family: "bitcheese";
   text-decoration: none;
-  animation: cambiocolor 1s;
-  width: 100px;
-  height: 600px;
 }
 
-@keyframes cambiocolor {
-  from {
-    color: #00c3ff;
-  }
-  to {
-    color: #ff0202;
-  }
-}
 span {
   color: #00c3ff;
-  animation: cambiocolor2 1s;
 }
 
-@keyframes cambiocolor2 {
-  from {
-    color: #ff0202;
-  }
-  to {
-    color: #00c3ff;
-  }
-}
 /*Fin carousel*/
 /*Barra de navegación*/
 nav.navbar ul {
@@ -95,11 +65,11 @@ div.cuerpo p {
 }
 
 /*Fin biograía*/
-.subtitulo {
+.titulo-3 {
   margin: 20px;
   text-align: center;
   font-family: "Bitcheese";
-  color: #ff0202;
+  color: rgb(207, 36, 36);
   font-size: xx-large;
   text-decoration-line: underline;
   transform: rotate(-5deg);
@@ -139,84 +109,23 @@ body {
 .tapas img {
   height: 200px;
   margin: 1px;
-  animation: tapasinferior 2s;
 }
 
-@keyframes tapasinferior {
-  0% {
-    transform: scale(0.5) translate(-500%, -500%);
-  }
-}
 /*Fin tapas inferior*/
 /*Footer*/
 footer {
+  width: 100%;
+  height: 150px;
   margin-top: 30px;
   background-color: rgb(205, 205, 223);
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 150px;
 }
 footer .img-instagram {
   width: 30px;
   margin-top: 10px;
 }
 
-/*Fin footer*/
-/*Formulario de contacto*/
-div.contacto {
-  width: 100%;
-  margin-top: 30px;
-  text-align: center;
-}
-div.contacto textarea {
-  border: #00c3ff solid;
-}
-div.contacto textarea .datos {
-  color: #7e7d85;
-  width: 300px;
-}
-div.contacto textarea .mensaje {
-  color: #7e7d85;
-  width: 300px;
-  height: 300px;
-}
-
-.boton {
-  text-align: center;
-  margin: 10px;
-}
-.boton .color-celeste, .boton .color-rojo {
-  font-family: "bitcheese";
-  color: #000000;
-}
-
-/*Fin de formulario de contacto*/
-/*Novelas*/
-.img-novela {
-  height: 400px;
-  margin: 10px;
-}
-
-.argumento {
-  text-align: justify;
-  margin-top: 10px;
-}
-
-/*Fin de novelas*/
-/*Otros libros*/
-section.tapasotros {
-  display: flex;
-}
-section.tapasotros div {
-  height: 600px;
-  margin: 100px;
-}
-section.tapasotros img {
-  height: 500px;
-}
-
-/*Fin de otros libros*/
 .titulo-1 {
   font-size: 1rem;
 }
@@ -271,21 +180,6 @@ section.tapasotros img {
 .color-gris_oscuro {
   background-color: #7e7d85;
   color: #7e7d85;
-}
-
-@media screen and (max-width: 600px) {
-  .p1 {
-    background-color: #00c3ff;
-  }
-  .p2 {
-    background-color: #ff0202;
-  }
-  .p3 {
-    background-color: #523fbb;
-  }
-  .p4 {
-    background-color: #aaa959;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

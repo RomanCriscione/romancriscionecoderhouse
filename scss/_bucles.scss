@@ -1,0 +1,27 @@
+@for $i from 1 to 5 {
+    .titulo-#{$i} {
+        font-size: 1rem * $i;
+    }
+}
+
+$colores: (
+    celeste: #00c3ff,
+    rojo: #ff0202,
+    blanco: #fff,
+    negro: #000000,
+    mostaza: #aaa959,
+    violeta: #523fbb,
+    gris: #d7d5e4,
+    gris_oscuro: #7e7d85,
+
+    );
+
+@each $c-color, $color in $colores{
+
+    .color-#{$c-color}{
+        background-color: #{$color};
+        color: #{$color};
+    }
+
+    
+}

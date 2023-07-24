@@ -1,0 +1,248 @@
+@import "reset";
+@import "variables";
+@import "font";
+@import "mixins";
+
+@include encabezados(4rem);
+
+/*Carousel*/
+
+.titulo-4{
+    transform: rotate(-45deg);
+    color: $rojo;
+    font-family: "bitcheese";
+    text-decoration: none;
+    animation: cambiocolor 1s;
+
+    @include sizes(600px, 100px);
+}
+
+@keyframes cambiocolor{
+    from{
+        color: $celeste;
+    }
+    to{
+        color: $rojo;
+    }
+}
+
+span{
+    color: $celeste;
+    animation: cambiocolor2 1s;
+}
+
+@keyframes cambiocolor2{
+    from{
+        color: $rojo;
+    }
+    to{
+        color: $celeste;
+    }
+}
+
+/*Fin carousel*/
+
+/*Barra de navegación*/
+
+nav.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $negro;
+
+    li{
+        display: inline-block;
+
+        a{
+            color: $blanco;
+            font-size: large;
+            text-decoration: none;
+            padding: 10px;
+
+            &:hover{
+                color: $rojo;
+            }
+            }
+        }
+    }
+    
+    /*Fin barra de navegación*/
+
+    /*Biografía*/
+
+    div.cuerpo{
+        width: 80%;
+        text-align: center;
+        margin: 0 10% 0% 10%;
+        
+
+        img{
+            
+            @include sizes(300px, 80%);
+            
+        }
+        
+        p{
+            text-align: justify;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        
+        }
+    }
+
+    /*Fin biograía*/
+
+    .subtitulo{
+        margin: 20px;
+        text-align: center;
+        font-family: "Bitcheese";
+        color: $rojo;
+        font-size: xx-large;
+        text-decoration-line: underline;
+        transform: rotate(-5deg);
+    }
+
+    body{
+        background-color: $gris;
+    }
+
+    /*Cuerpo Index*/
+
+    .p1, .p2, .p3, .p4{
+        font-family: "bitcheese";
+        border-radius: 20px;
+    }
+
+    .p1{
+        margin-top: 50px;
+        background-color: $rojo;
+    }
+    
+    .p2{
+        margin-top: 75px;
+        background-color:$celeste ;
+    }
+    
+    .p3{
+       background-color: $mostaza;
+    }
+    
+    .p4{ 
+        margin-top: 75px;
+        background-color: $violeta;
+    
+    }
+    
+    /*Fin cuerpo index*/
+
+    /*Tapas inferior*/
+
+    .tapas img{
+        height: 200px;
+        margin: 1px;
+        
+        animation: tapasinferior 2s;
+    }
+
+    @keyframes tapasinferior{
+        0%{
+            transform: scale(0.5) translate(-500%, -500%)
+        }
+
+    }
+    
+    /*Fin tapas inferior*/
+
+    /*Footer*/
+
+footer{
+    margin-top: 30px;
+    background-color: rgb(205, 205, 223);
+    display: flex;
+    justify-content: center;
+    @include sizes(150px, 100%);
+
+    .img-instagram{
+        width: 30px;
+        margin-top: 10px;
+        
+    }
+}
+
+/*Fin footer*/
+
+/*Formulario de contacto*/
+
+div.contacto{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+
+    textarea{
+        border: $celeste solid;
+
+        .datos{
+            color: $gris_oscuro;
+            width: 300px;
+        }
+
+        .mensaje{
+            color: $gris_oscuro;
+            @include sizes(300px, 300px);
+            
+        }
+}
+}
+
+.boton{
+    text-align: center;
+    margin: 10px;
+
+    .color-celeste, .color-rojo{
+        font-family: "bitcheese";
+        color: $negro;
+        
+    }
+}
+
+/*Fin de formulario de contacto*/
+
+/*Novelas*/
+
+
+.img-novela{
+    height: 400px;
+    margin: 10px;
+}
+
+.argumento{
+    text-align: justify;
+    margin-top: 10px;
+    
+}
+
+/*Fin de novelas*/
+
+
+/*Otros libros*/
+
+section.tapasotros{
+    display: flex;
+
+    div{
+        height: 600px;
+        margin: 100px;
+    }
+
+    img{
+        height: 500px;
+    }
+    
+    }
+
+    /*Fin de otros libros*/
+@import "bucles";
+@import "queries";

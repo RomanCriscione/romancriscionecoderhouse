@@ -1,0 +1,19 @@
+@mixin encabezados($tamanio){
+
+    h1{
+        font-size: $tamanio;
+    }
+    h2{
+        font-size: $tamanio - 1;
+    }
+    h3{
+        font-size: $tamanio - 2;
+    }
+    
+}
+
+@mixin sizes($alto, $ancho){
+    width: $ancho;
+    height: $alto;
+
+}

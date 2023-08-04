@@ -21,6 +21,12 @@ h3 {
   font-size: 2rem;
 }
 
+.img-logo {
+  width: 50px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
 /*Carousel*/
 .titulo-4 {
   transform: rotate(-45deg);
@@ -29,7 +35,7 @@ h3 {
   text-decoration: none;
   animation: cambiocolor 1s;
   width: 100px;
-  height: 600px;
+  height: 150px;
 }
 
 @keyframes cambiocolor {
@@ -113,6 +119,8 @@ body {
 .p1, .p2, .p3, .p4 {
   font-family: "bitcheese";
   border-radius: 20px;
+  font-size: 25px;
+  padding: 10px;
 }
 
 .p1 {
@@ -137,8 +145,8 @@ body {
 /*Fin cuerpo index*/
 /*Tapas inferior*/
 .tapas img {
-  height: 200px;
-  margin: 1px;
+  height: 100%;
+  width: 100%;
   animation: tapasinferior 2s;
 }
 
@@ -273,18 +281,62 @@ section.tapasotros img {
   color: #7e7d85;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  .intro .row {
+    display: block;
+    overflow-wrap: break-word;
+  }
   .p1 {
     background-color: #00c3ff;
+    font-size: 20px;
   }
   .p2 {
     background-color: #ff0202;
+    font-size: 20px;
   }
   .p3 {
     background-color: #523fbb;
+    font-size: 20px;
   }
   .p4 {
     background-color: #aaa959;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .tapas {
+    display: none;
+  }
+  .p1 {
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .p2 {
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .p3 {
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .p4 {
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .novelas .row {
+    display: block;
+  }
+  .img-novela {
+    width: 100%;
+    margin: 10px;
+  }
+  .argumento {
+    text-align: justify;
+    margin-top: 10px;
+    width: 100%;
+  }
+  h3 {
+    font-size: 20px;
   }
 }
 

@@ -1,29 +1,86 @@
-@media screen and (max-width: 600px){
-  
-    
+@media screen and (max-width: 768px){
+
+
+    .intro .row{
+        display: block;
+        overflow-wrap: break-word;
+        }
+   
 
     .p1{
         background-color: $celeste;
-        
+        font-size: 20px;
     }
     
     .p2{
         background-color: $rojo;
-        
-    }
+        font-size: 20px;
+        }
     
     .p3{
         background-color: $violeta;
-        
+        font-size: 20px;
     }
     
     .p4{ 
         background-color: $mostaza;
-        
+        font-size: 20px;
     }
     
 
     
    }
 
-   
+   @media screen and (max-width: 380px){
+
+
+
+    .tapas{
+        display: none;
+    }
+  
+
+   .p1{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.p2{
+    font-size: 15px;
+    margin-top: 0;
+    }
+
+.p3{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.p4{ 
+    font-size: 15px;
+    margin-top: 0;
+}
+
+
+.novelas .row{
+    display: block;
+}
+
+.img-novela{
+    width: 100%;
+    margin: 10px;
+    
+}
+
+.argumento{
+    text-align: justify;
+    margin-top: 10px;
+    width: 100%;
+    
+    
+}
+
+h3{
+    font-size: 20px;
+}
+
+}

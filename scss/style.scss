@@ -5,16 +5,24 @@
 
 @include encabezados(4rem);
 
+.img-logo{
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+   
+}
+
 /*Carousel*/
 
-.titulo-4{
+.titulo-4{ 
     transform: rotate(-45deg);
     color: $rojo;
     font-family: "bitcheese";
     text-decoration: none;
     animation: cambiocolor 1s;
-
-    @include sizes(600px, 100px);
+   
+    @include sizes(150px, 100px);
 }
 
 @keyframes cambiocolor{
@@ -114,6 +122,8 @@ nav.navbar ul{
     .p1, .p2, .p3, .p4{
         font-family: "bitcheese";
         border-radius: 20px;
+        font-size: 25px;
+        padding: 10px;
     }
 
     .p1{
@@ -140,11 +150,15 @@ nav.navbar ul{
 
     /*Tapas inferior*/
 
+    
+
     .tapas img{
-        height: 200px;
-        margin: 1px;
-        
+        height: 100%;
+       
+        width: 100%;
         animation: tapasinferior 2s;
+        
+
     }
 
     @keyframes tapasinferior{
@@ -242,6 +256,8 @@ section.tapasotros{
     }
     
     }
+
+    
 
     /*Fin de otros libros*/
 @import "bucles";
